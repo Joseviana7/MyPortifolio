@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="inicio.css">
+    <title>José Viana | Portfólio</title>
+</head>
+<body>
+
+    <!--Menu do portfólio-->
+    <header id="topo">
+        <div class="logo">
+            <h1>José Bumba</h1>
+        </div>
+        <nav class="menu">
+            <button class="menu-mobile" id="menu-mobile">☰</button>
+            <ul id="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos2">Projetos</a></li>
+                <li><a href="#contactos">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Seção Inicio/Home-->
+    <section id="inicio">
+        <div id="corpo">
+            <div class="imagem-perfil">
+                <img id="central" src="img/B.JPG" alt="José Bumba">
+            </div>
+
+            <div id="corpo1">
+                <div id="nome">
+                    <p id="ola">Olá, Eu sou</p>
+                    <h2>José Bumba</h2> 
+                    <p><strong>Desenvolvedor Front-End</strong></p><br>
+                </div>
+
+                <!--Botões principais para contato e verificar o projeto-->
+                <div id="botao">
+                    <a id="contacto" href="https://wa.me/244941676562?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20meu%20trabalho." target="_blank">Entrar em contacto</a>
+                    <a id="projetos" href="#projetos2">Ver projetos</a>
+                </div>
+
+                <div id="sociais">
+                    <ul>
+                        <li><a id="facebook" href="#" target="_blank"><img style="width: 43px; margin-top: 10px;" id="facebook" src="Icon/fb.png" alt="Facebook"></a></li>
+                        <li><a id="insta" href="https://www.instagram.com/joseviana.dev?igsh=YzljYTk1ODg3Zg==" target="_blank"><img src="Icon/Instagram.png" alt="Instagram"></a></li>
+                        <li><a id="whatsApp" href="https://wa.me/244941676562" target="_blank"><img src="Icon/WhatsApp.png" alt="WhatsApp"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seção Sobre Mim-->
+    <div id="mais">
+        <section id="sobre"><h1>Sobre Mim</h1></section>
+        <div class="sobre-conteudo">
+            <p>Sou desenvolvedor front-end, trabalho na área a 1 ano, estou sempre buscando aprender novas tecnologias com o objetivo de entregar os melhores resultados e resolver problemas do mundo!</p>
+            <p>Me apaixonei pela tecnologia desde muito cedo, e despertei o amor pela programação aos meus 12 anos de idade, com 13 anos já estava a dar os primeiros passos na programação.</p>
+        </div>
+    </div>
+    
+    <!--Seção Habilidades-->
+    <div id="mais1">
+        <section id="habilidades"><h1>Habilidades</h1></section>
+        <div class="habilidades-conteudo">
+            <h4>Ferramentas:</h4>
+            <div class="icons">
+                <div class="item">
+                    <img id="htmlimg" src="Icon/HTML.png" alt="Logo Html">
+                    <p>HTML5</p>
+                </div>
+                <div class="item">
+                    <img id="cssimg" src="Icon/CSS3.png" alt="Logo Css">
+                    <p>CSS3</p>
+                </div>
+                <div class="item">
+                    <img id="jsimg" src="Icon/javascript.png" alt="Logo javascript">
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Seção Projetos com Cards-->
+    <div id="mais2">
+        <section id="projetos2"><h1>Meus Projetos</h1></section>
+        
+        <div class="projetos-grid">
+            <!-- Card Projeto 1 -->
+            <div class="projeto-card" onclick="window.open('https://mapschool.netlify.app/', '_blank')">
+                <div class="card-imagem">
+                    <img src="img/mapschool.png" alt="Projeto 1">
+                    <div class="card-overlay">
+                        <span>Ver Projeto →</span>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>MapSchool</h3>
+                    <p>Site de pesquisa de escolas da província de Luanda.</p>
+                    <div class="card-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Projeto 2 -->
+            <div class="projeto-card" onclick="window.open('//https://seusite.com/projeto2', '_blank')">
+                <div class="card-imagem">
+                    <!-- <img src="" alt="Projeto 2">-->
+                    <div class="card-overlay">
+                        <span>OFFLINE →</span>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Enfermaria Viana</h3>
+                    <p>Sistema de gestão de uma Enfermaria, "Projeto comercial"</p>
+                    <div class="card-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>PHP</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Projeto 3
+            <div class="projeto-card" onclick="window.open('https://seusite.com/projeto3', '_blank')">
+                <div class="card-imagem">
+                    <img src="Icon/projeto-placeholder.jpg" alt="Projeto 3">
+                    <div class="card-overlay">
+                        <span>Ver Projeto →</span>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Offline</h3>
+                    <p>.</p>
+                    <div class="card-tags">
+                        <span>...</span>
+                        <span>...</span>
+                    </div>
+                </div>
+            </div>
+
+             Card Projeto 4 
+            <div class="projeto-card" onclick="window.open('https://seusite.com/projeto4', '_blank')">
+                <div class="card-imagem">
+                    <img src="Icon/projeto-placeholder.jpg" alt="Projeto 4">
+                    <div class="card-overlay">
+                        <span>Ver Projeto →</span>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h3>Projeto 4</h3>
+                    <p>Descrição breve do projeto. Tecnologias utilizadas e funcionalidades.</p>
+                    <div class="card-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div id="mais3">
+            <section id="contactos"><h1 id="contacto1">Entre em Contacto</h1></section>
+        </div>
+        
+        <div class="contato-info">
+            <div id="inf">
+                <h4>WhatsApp</h4>
+                <p><strong>+244 </strong>941-676-562</p>
+                <h4>E-mail</h4>
+                <p>josebumba220@gmail.com</p>
+            </div>
+        </div>
+                   
+        <div id="ultimo">
+            <p>Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile
+        const menuMobile = document.getElementById('menu-mobile');
+        const navList = document.getElementById('nav-list');
+
+        menuMobile.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+
+        // Fechar menu ao clicar em um link
+        const links = document.querySelectorAll('#nav-list a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                navList.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
